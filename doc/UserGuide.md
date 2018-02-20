@@ -53,6 +53,19 @@ Examples:
 Shows a list of all persons in the address book.<br>
 Format: `list`
 
+### Modify existing person details: `modify`
+Replaces the details of an existing person with new details provided.
+Name must exactly the same as an existing contact.
+Format: `modify NAME [p]p/PHONE_NUMBER [p]e/EMAIL [p]a/ADDRESS [t/TAG]...`
+
+> Words in `UPPER_CASE` are the parameters, items in `SQUARE_BRACKETS` are optional,
+> items with `...` after them can have multiple instances. Order of parameters are fixed.
+>
+> Put a `p` before the phone / email / address prefixes to mark it as `private`. `private` details can only
+> be seen using the `viewall` command.
+>
+> Persons can have any number of tags (including 0)
+
 ### Finding all persons containing any keyword in their name: `find`
 Finds persons whose names contain any of the given keywords.<br>
 Format: `find KEYWORD [MORE_KEYWORDS]`
