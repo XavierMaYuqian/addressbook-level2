@@ -138,7 +138,7 @@
 || Enter command: || [Command entered:  add Esther Potato p/555555 e/esther@not.a.real.potato pa/555, epsilon street t/tubers t/starchy]
 || This person already exists in the address book. Please use the function modify.
 || ===================================================
-|| Enter command: || [Command entered:  modify Esther Potato p/123456 e/esther@gmail.com pa/123, zeta street t/protein]
+|| Enter command: || [Command entered:  modify Esther Potato p/123456 e/esther@gmail.com pa/123, zeta street]
 || modify command executed! Esther Potato has been modified successfully!
 || ===================================================
 || Enter command: || [Command entered:  list]
@@ -146,7 +146,7 @@
 || 	2. Betsy Choo Tags: [secretive]
 || 	3. Charlie Dickson Email: charlie.d@nus.edu.sg Address: 333, gamma street Tags: [school][friends]
 || 	4. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
-|| 	5. Esther Potato Phone: 123456 Email: esther@gmail.com Tags: [protein]
+|| 	5. Esther Potato Phone: 123456 Email: esther@gmail.com Tags:
 ||
 || 5 persons listed!
 || ===================================================

@@ -59,7 +59,7 @@
 ##########################################################
 
   # should modify correctly
-  modify Esther Potato p/123456 e/esther@gmail.com pa/123, zeta street t/protein
+  modify Esther Potato p/123456 e/esther@gmail.com pa/123, zeta street
   list
   modify Esther Potato p/555555 e/esther@not.a.real.potato pa/555, epsilon street t/tubers t/starchy
   list
