@@ -40,7 +40,7 @@ public class AddressBook {
      * @param persons external changes to this will not affect this address book
      * @param tags external changes to this will not affect this address book
      */
-    public AddressBook(UniquePersonList persons, UniqueTagList tags) {
+    public AddressBook(UniquePersonList persons, UniqueTagList tags){
         this.allPersons = new UniquePersonList(persons);
         this.allTags = new UniqueTagList(tags);
         for (Person p : allPersons) {
